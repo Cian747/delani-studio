@@ -5,4 +5,5 @@
 #main{
     background-image: url(../background/main.jpg);
     color: antiquewhite;
+    padding: 40px;
 }
