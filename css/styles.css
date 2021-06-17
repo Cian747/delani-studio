@@ -7,3 +7,12 @@
     color: antiquewhite;
     padding: 40px;
 }
+#services{
+    background-image: url(../background/about.jpg);
+    color:antiquewhite;
+}
+#contact{
+    background-image: url(../background/image3.jpg);
+    color:antiquewhite;
+    padding: 40px;
+}
