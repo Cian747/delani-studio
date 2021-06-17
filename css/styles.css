@@ -5,14 +5,27 @@
 #main{
     background-image: url(../background/main.jpg);
     color: antiquewhite;
-    padding: 40px;
+    padding: 100px;
 }
 #services{
     background-image: url(../background/about.jpg);
     color:antiquewhite;
+    padding: 100px;
+}
+#what-we-do{
+    padding: 100px;
+}
+#portfolio{
+    padding: 100px;
+}
+#about{
+    padding: 100px;
 }
 #contact{
     background-image: url(../background/image3.jpg);
     color:antiquewhite;
-    padding: 40px;
+    padding: 100px;
+}
+#footer{
+    padding: 20px;
 }
