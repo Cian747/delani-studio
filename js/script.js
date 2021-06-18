@@ -1,3 +1,16 @@
+// Business logic
+function formDetails(){
+  let names = document.getElementById("InputName").value;
+
+  let email = document.getElementById("InputEmail").value;
+
+  console.log(names,email)
+  if(email == "" || names == ""){
+   alert("Kindly fill in the for with your" + names + "and " + email);
+  }
+
+};
+
 // user interface logic
 $(document).ready(function (){
   $('.design-click').click(function(){
