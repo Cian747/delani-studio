@@ -1,15 +1,17 @@
 // Business logic
-function formDetails(){
-  let names = document.getElementById("InputName").value;
+// function formDetails(){
+//   let names = document.forms['more-info']['yourName'].value;
+//  console.log(names)
+//   let email = document.getElementById("InputEmail").value;
 
-  let email = document.getElementById("InputEmail").value;
+//   console.log(names,email)
+//   if(email == "" || names == ""){
+//    alert("Kindly fill in the for with your names and email");
+//   } else{
+//    alert( names + "we have received your message. Thank you for reaching out to us.")
+//   }
 
-  console.log(names,email)
-  if(email == "" || names == ""){
-   alert("Kindly fill in the for with your" + names + "and " + email);
-  }
-
-};
+// };
 
 // user interface logic
 $(document).ready(function (){
@@ -30,7 +32,15 @@ $(document).ready(function (){
     $('#prod-cont').toggle();
 
   });
+  $('#more-info').submit(function(){
+    
+     var names = $('input#Name').val(),
+         email = $('input#Email').val();
+         content = $("input#area-text").val();
+         result = alert(names + " we have received your message. Thank you for reaching out to us.")
 
+         event.preventDefault();
+  })
 
 
 });

@@ -12,7 +12,7 @@
     <body>
         <div class="container-fluid">
         <section id="main"> 
-         <img src="logo/logo.png" alt=""> <br><br><br>      
+         <img src="logo/logo.png" alt=""> <br><br><br><br><br>      
          <h2>WELCOME</h2>
          <h2>TO DELANI STUDIO</h2>
          <p>Amazing people are making amazing designs.</p><br><br><br><br><br>
@@ -38,7 +38,8 @@
             <h3>WHAT WE DO</h3> <br>
             <div class = "row">
              <div class="col-md-4" id="design-icon" class="toggle-design">
-           <span class="design-click"> <img src="service-icon/design_icon.png" alt=""></span>
+           <span class="design-click"> <img src="service-icon/design_icon.png" alt="">
+           <p>DESIGN</p></span>
            </div>
 
            <div class="col-md-4" id="design-cont" class=".toggle-design">
@@ -47,7 +48,8 @@
            </div>
 
            <div class="col-md-4" id="dev-icon">
-           <span class="dev-click"> <img src="service-icon/dev_icon.png" alt=""></span>
+           <span class="dev-click"> <img src="service-icon/dev_icon.png" alt="">
+            <p>DEVELOPMENT</p></span>
            </div>
            
            <div class="col-md-4" id="dev-cont">
@@ -56,7 +58,8 @@
            </div>
 
            <div class="col-md-4" id="prod-icon">
-              <span class="prod-click"> <img src="service-icon/product_icon.png" alt=""></span>
+              <span class="prod-click"> <img src="service-icon/product_icon.png" alt="">
+                <p>PRODUCT MANAGEMENT</p></span>
            </div>
 
            <div class = "col-md-4" id="prod-cont">
@@ -83,17 +86,17 @@
 
          <section id="contact">
            <h4>CONTACT US</h4>
-          <form class="form-inline" id = "contact">
+          <form class="form-inline" id = "more-info">
             <div class="form-group">
-              <input type="text" class="form-control" id="InputName" placeholder="Name">
+              <input type="text" class="form-control" id="Name" placeholder="Name" name = "yourName" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="InputEmail" placeholder="Email">
+              <input type="email" class="form-control" id="Email" placeholder="Email" required>
             </div>
             <br>
-            <div class="su">
-            <textarea class="form-control" rows="6"></textarea>
-            </div>
+
+            <textarea class="form-control" rows="6" id = "area-text"></textarea>
+            
              <br>
              <button class="btn btn-default" type="submit">Submit</button>
           </form>  
