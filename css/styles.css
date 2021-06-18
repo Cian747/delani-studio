@@ -61,6 +61,64 @@
 #portfolio{
     padding: 100px;
 }
+
+/* Portfolio UI */
+
+#web-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+};
+
+#graph-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+};
+
+#logo-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+
+};
+
+#pallete-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+
+};
+
+#mobile-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+
+};
+
+#func-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+
+};
+
+#brand-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+
+};
+
+#promo-back{
+    display: none;
+    /* color:antiquewhite;
+    background-color:transparent; */
+};
+
+            
+
 #about{
     padding: 100px;
 }
