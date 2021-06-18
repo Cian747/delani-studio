@@ -23,7 +23,7 @@ $(document).ready(function (){
      var names = $('input#Name').val(),
          email = $('input#Email').val();
          content = $("input#area-text").val();
-         result = alert(names + " we have received your message. Thank you for reaching out to us.")
+         result = alert("Hi " + names + " we have received your message. Thank you for reaching out to us.")
 
          event.preventDefault();
   })
