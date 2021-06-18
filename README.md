@@ -4,7 +4,7 @@
 ## Description
 Delani Studio is a new start-up company with talented programmers that are well versed in all the languages. Not even a year old yet but it has a huge client base.
 ## Setup/Installation Requirements
-* Fork clone to your repo.
+* Fork code to your repo.
 * Git clone the code to your computer.
 * OPen and update the code to your personal preference and test.
 * Create a gh-pages and push it to your repo.
