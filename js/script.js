@@ -5,8 +5,19 @@ $(document).ready(function (){
    $('#design-cont').toggle();
 
   });
-  
-  $().click(function(){
+
+  $('.dev-click').click(function(){
+   $('#dev-icon').toggle();
+   $('#dev-cont').toggle();
 
   });
+  
+  $('.prod-click').click(function(){
+    $('#prod-icon').toggle();
+    $('#prod-cont').toggle();
+
+  });
+
+
+
 });

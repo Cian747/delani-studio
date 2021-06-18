@@ -16,6 +16,7 @@
     padding: 100px;
 }
 
+/* Design UI */
 #design-cont{
     display: none;
 }
@@ -25,6 +26,33 @@
 }
 
 .design-click:hover{
+    text-decoration: underline;
+}
+
+/* Development UI */
+#dev-cont{
+    display: none;
+}
+
+.dev-click{
+    cursor: pointer;
+}
+
+.dev-click:hover{
+    text-decoration: underline;
+}
+
+/* Product Development UI styling */
+
+#prod-cont{
+    display: none;
+}
+
+.prod-click{
+    cursor: pointer;
+}
+
+.prod-click:hover{
     text-decoration: underline;
 }
 
