@@ -8,13 +8,41 @@
     background-size: 100% 100%;
     padding: 100px;
 }
+
 #services{
     background-image: url(../background/about.jpg);
     color:antiquewhite;
     background-size: 100% 100%;
     padding: 100px;
 }
+
+#contact{
+   background-image: url(../background/image3.jpg);
+   color: antiquewhite;
+   background-size: 100% 100%;
+   padding: 100px;
+}
+
+#Name{
+    background-color: transparent;
+    color: white;
+}
+
+#Email{
+    background-color: transparent;
+    color: white;
+}
+
+#area-text{
+    background-color: transparent;
+    color: white;
+}
+
 #what-we-do{
+    padding: 80px;
+}
+
+#about{
     padding: 100px;
 }
 
@@ -27,10 +55,6 @@
     cursor: pointer;
 }
 
-.design-click:hover{
-    text-decoration: underline;
-}
-
 /* Development UI */
 #dev-cont{
     display: none;
@@ -38,10 +62,6 @@
 
 .dev-click{
     cursor: pointer;
-}
-
-.dev-click:hover{
-    text-decoration: underline;
 }
 
 /* Product Development UI styling */
@@ -54,9 +74,6 @@
     cursor: pointer;
 }
 
-.prod-click:hover{
-    text-decoration: underline;
-}
 
 #portfolio{
     padding: 100px;
@@ -64,70 +81,72 @@
 
 /* Portfolio UI */
 
-#web-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-};
-
-#graph-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-};
-
-#logo-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-
-};
-
-#pallete-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-
-};
-
-#mobile-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-
-};
-
-#func-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-
-};
-
-#brand-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-
-};
-
-#promo-back{
-    display: none;
-    /* color:antiquewhite;
-    background-color:transparent; */
-};
-
-            
-
-#about{
-    padding: 100px;
+.col-md-3{
+    position: relative; 
+    padding-bottom: 20px;  
 }
-#contact{
-    background-image: url(../background/image3.jpg);
+
+#web-back,#graph-back,#logo-back,#pallete-back,#mobile-back,#func-back,#brand-back,#promo-back{
+    display: none;
     color:antiquewhite;
-    background-size: 100% 100%;
-    padding: 100px;
+    font-family:fantasy;
+    font-style: italic;
+    font-weight:600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
+
+#web-pic img:hover{
+    filter:blur(2px);
+    cursor: pointer;
+
+}
+
+#graph-pic img:hover{
+    filter:blur(4px);
+    cursor: pointer;
+
+
+}
+
+#logo-pic img:hover{
+    filter:blur(4px);
+    cursor: pointer;
+   
+}
+
+#pallete-pic img:hover{
+    filter:blur(4px);
+    cursor: pointer;
+
+}
+
+#mobile-pic img:hover{
+    filter:blur(4px);
+    cursor: pointer;
+
+}
+
+#func-pic img:hover{
+    filter:blur(4px);
+    cursor: pointer;
+
+}
+
+#brand-pic img:hover{
+    filter:blur(4px);
+    cursor: pointer;
+
+}
+
+#promo-pic img:hover{
+    filter:blur(4px);
+    cursor: pointer;
+
+}
+
 #footer{
     padding: 20px;
 }

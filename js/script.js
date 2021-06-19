@@ -18,15 +18,52 @@ $(document).ready(function (){
     $('#prod-cont').toggle();
 
   });
+
   $('#more-info').submit(function(){
     
      var names = $('input#Name').val(),
-         email = $('input#Email').val();
-         content = $("input#area-text").val();
-         result = alert("Hi " + names + " we have received your message. Thank you for reaching out to us.")
+         email = $('input#Email').val(),
+         content = $("input#area-text").val(),
+         result = alert("Hi " + names + " we have received your message. Thank you for reaching out to us.");
 
          event.preventDefault();
-  })
+  });
 
+  $('#web-pic').hover(function(){
+    $('#web-back').toggle();
+  });
+
+  $('#graph-pic').hover(function(){
+    $('#graph-back').toggle();
+  });
+
+  $('#logo-pic').hover(function(){
+    $('#logo-back').toggle();
+  });
+
+  $('#pallete-pic').hover(function(){
+    $('#pallete-back').toggle();
+  });  
+  
+  $('#mobile-pic').hover(function(){
+    $('#mobile-back').toggle();
+
+  });
+
+  $('#func-pic').hover(function(){
+    $('#func-back').toggle();
+  });
+
+  $('#brand-pic').hover(function(){
+    $('#brand-back').toggle();
+
+  });
+
+  $('#promo-pic').hover(function(){
+    $('#promo-back').toggle();
+
+  });
+
+  
 
 });

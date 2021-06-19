@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
         <title>Delani Studio</title>
         <script src="js/jquery-3.6.0.js"></script>
         <script src="js/script.js"></script>
@@ -43,8 +43,8 @@
            </div>
 
            <div class="col-md-4" id="design-cont" class=".toggle-design">
-             <span class="design-click"><strong>Design</strong></span>
-             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>  
+             <span class="design-click"><strong>Design</strong>
+             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p></span>  
            </div>
 
            <div class="col-md-4" id="dev-icon">
@@ -53,8 +53,8 @@
            </div>
            
            <div class="col-md-4" id="dev-cont">
-            <span class="dev-click"><strong>Development</strong></span>
-            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            <span class="dev-click"><strong>Development</strong>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p></span>
            </div>
 
            <div class="col-md-4" id="prod-icon">
@@ -63,45 +63,69 @@
            </div>
 
            <div class = "col-md-4" id="prod-cont">
-              <span class="prod-click"><strong>Product Management</strong></span>
-            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+              <span class="prod-click"><strong>Product Management</strong>
+            <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p></span>
            </div>
-          </div>  <!--closing div.row-->
+          </div>  
           <br>
+
         </section id="portfolio">
-          <h3>PORTFOLIO</h3><br>
-          <div class="row">
-            <div class="col-md-4"> <span class="web-click"><img src="portfolio/port1.jpg" alt="" class="img-thumbnail" id="web-pic"></span></div><br>
-            <!-- <div id="web-back" class ="col-md-4"> <span class = "web-click"><p>WEBSITES</p></span></div> -->
-            <div class="col-md-4"> <span id="graph-click"><img src="portfolio/work2.jpg" alt="" class="img-thumbnail"></span></div><br>
-            <!-- <div id="graph-back" class="col-md-4"><span id="graph-click"><p>GRAPHICS</p></span></div> -->
-            <div class="col-md-4"><span class="logo-click"><img src="portfolio/work3.jpg" alt="" class="img-thumbnail"></span></div><br>
-            <!-- <div id="logo-back" class="col-md-4"><span class="logo-click"><p>LOGO</p></span></div> -->
-            <div class="col-md-4"> <span class="pallette-click"><img src="portfolio/work4.jpg" alt="" class="img-thumbnail"></span></div><br>
-            <!-- <div id="pallete-back" class="col-md-4"><span class="pallete-click"><p>COLOR PALLETE</p></span></div> -->
-            <div class="col-md-4"> <span class="mobile-click"><img src="portfolio/work5.jpg" alt="" class="img-thumbnail"></span></div><br>
-            <!-- <div id="mobile-back" class="col-md-4"><span class="mobile-click"><p>MOBILE APPS</p></span></div> -->
-            <div class="col-md-4"> <span class="func-click"><img src="portfolio/work6.jpg" alt="" class="img-thumbnail"></span></div><br>
-            <!-- <div id="func-back" class="col-md-4"><span class="func-click"><p>FUNCTIONS</p></span></div> -->
-            <div class="col-md-4"> <span class="brand-click"><img src="portfolio/work7.jpg" alt="" class="img-thumbnail"></span></div><br>
-            <!-- <div id="brand-back" class="col-md-4"><span class="brand-click"><p>BRANDING</p></span></div> -->
-            <div class="col-md-4"> <span class="promo-click"><img src="portfolio/work8.jpg" alt="" class="img-thumbnail"></span></div><br>
-            <!-- <div id="promo-back" class="col-md-4"><span class="promo-click"><p>SITE PROMO</p></span></div> -->
+          <h3>PORTFOLIO</h3>
+          <div id="portfolio">
+            <div class="row">
+              <div class="col-md-3" id="web-pic"> 
+                <img src="portfolio/port1.jpg" alt="" class="img-fluid" >
+                <div id="web-back"><p>WEBSITES</p></div>
+              </div>
+              <div class="col-md-3" id="graph-pic">
+                <img src="portfolio/work2.jpg"  class="img-fluid">
+                <div id="graph-back"><p>GRAPHICS</p></div>
+              </div>
+              <div class="col-md-3" id="logo-pic">
+                <img src="portfolio/work3.jpg" class="img-fluid">
+                <div id="logo-back"><p>LOGO</p></div>
+              </div>
+              <div class="col-md-3" id="pallete-pic">
+                <img src="portfolio/work4.jpg"  class="img-fluid">
+                <div id="pallete-back"><p>COLOR PALLETE</p></div>
+              </div>
+              <div class="col-md-3" id="mobile-pic"> 
+                <img src="portfolio/work5.jpg" alt="" class="img-fluid">
+                <div id="mobile-back"><p>MOBILE APPS</p></div>
+              </div>
+              <div class="col-md-3" id="func-pic">
+                <img src="portfolio/work6.jpg" alt="" class="img-fluid">
+                <div id="func-back"><p>FUNCTIONS</p></div>
+              </div>
+              <div class="col-md-3" id="brand-pic"> 
+                <img src="portfolio/work7.jpg" alt="" class="img-fluid">
+                <div id="brand-back"><p>BRANDING</p></div>
+              </div>
+              <div class="col-md-3" id="promo-pic"> 
+                <img src="portfolio/work8.jpg" alt="" class="img-fluid">
+                <div id="promo-back"><p>SITE PROMO</p></div>
+              </div>
+            </div>
           </div>
-          <!-- Closing div.row -->
+
          </section>
          <br>
 
          <section id="contact">
-           <h4>CONTACT US</h4>
+           <h4>CONTACT US</h4><br>
           <form class="form-inline" id = "more-info">
-            <div class="form-group">
-              <input type="text" class="form-control" id="Name" placeholder="Name" name = "yourName" required>
-            </div>
-            <br>
-            <div class="form-group">
-              <input type="email" class="form-control" id="Email" placeholder="Email" required>
-            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="Name" placeholder="Name" name = "yourName" required>
+                </div>
+              </div>  
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" class="form-control" id="Email" placeholder="Email" required>
+                </div>
+              </div>
+            </div> 
             <br>
 
             <textarea class="form-control" rows="6" id = "area-text"></textarea>
