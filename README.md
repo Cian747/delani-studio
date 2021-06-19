@@ -17,6 +17,10 @@ No bugs yet.
 * CSS
 * Bootstrap
 * jQuery
+
+## Live link
+https://cian747.github.io/delani-studio/
+
 ## Support and contact details
 Want to collaborate? Do you have any query? Reach me on sean12ka@gmail.com. 
 ### License
