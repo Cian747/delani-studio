@@ -4,21 +4,21 @@
 }
 #main{
     background-image: url(../background/main.jpg);
-    color: antiquewhite;
+    color: ghostwhite;
     background-size: 100% 100%;
     padding: 100px;
 }
 
 #services{
     background-image: url(../background/about.jpg);
-    color:antiquewhite;
+    color:ghostwhite;
     background-size: 100% 100%;
     padding: 100px;
 }
 
 #contact{
    background-image: url(../background/image3.jpg);
-   color: antiquewhite;
+   color: ghostwhite;
    background-size: 100% 100%;
    padding: 100px;
 }
@@ -40,12 +40,12 @@
 
 #what-we-do{
     padding: 80px;
-    background-color:cornsilk;
+    background-color:ghostwhite;
 
 }
 #about{
     padding: 100px;
-    background-color:cornsilk;
+    background-color:ghostwhite;
 }
 
 #design-cont{
@@ -75,13 +75,13 @@
 
 
 #portfolio{
-    padding: 50px;
+    padding: 60px;
 }
 
 
 .col-md-3{
     position: relative; 
-    padding-bottom: 20px;  
+    padding: 20px;  
 }
 
 #web-back,#graph-back,#logo-back,#pallete-back,#mobile-back,#func-back,#brand-back,#promo-back{
