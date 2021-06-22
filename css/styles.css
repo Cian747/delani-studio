@@ -144,13 +144,21 @@
     cursor: pointer;
 
 }
+
 button{
     background-color: transparent;
+    border: 2px solid honeydew;
+    border-radius: 5px;
 }
 
 button:hover{
    background-color: honeydew;
 }
+
+#FSB{
+    display: none;
+}
+
 #footer{
     padding: 20px;
 }

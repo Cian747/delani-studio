@@ -63,7 +63,8 @@ $(document).ready(function (){
     $('#promo-back').toggle();
 
   });
-
-  
+  $('#contact').hover(function(){
+    $("#FSB").toggle();
+  });
 
 });
